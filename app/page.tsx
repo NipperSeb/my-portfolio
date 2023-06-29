@@ -2,7 +2,17 @@ import React from 'react'
 
 const AboutMePage = () => {
   return (
-    <div>Home</div>
+    <main>
+      <section>
+        <div>Image</div>
+        <div>text</div>
+      </section>
+      <section></section>
+      <section>
+        <div>Image</div>
+        <div>text</div>
+      </section>
+    </main>
   )
 }
 

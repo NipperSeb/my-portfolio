@@ -17,26 +17,129 @@ export const pages = [
 ]
 
 export const aboutMeData = {
+  name:"Sébastien Pincepoche",
   title:"Bonjour! Je suis Sébastien Pincepoche",
-  body: "Riche d'une expérience de plus de quinze ans dans la vente en tant que Chef de Rayon, je m'intéresse au Digital et ua numérique depuis 5 ans.",
+  body: "Riche d'une expérience de plus de quinze ans dans la vente en tant que Chef de Rayon, je m'intéresse au Digital et au Numérique depuis 5 ans.",
   highLightedBody: "Actuellement, je réalise divers projets afin d'obtenir mon RNCP 'Developpeur Intégrateur Web'",
-  body2:"Je souhaite devenir expert webmarketing et recherche une entreprise pour suivre une alternance 'Chef de projet digital' pour la rentrée prochaine avec l'école 301"
+  body2:"Je souhaite devenir expert webmarketing et je recherche une entreprise pour suivre une alternance 'Chef de projet digital' pour la rentrée prochaine avec l'école 301"
 }
 
 export const contactMeText = {
   title: "Envie de mieux me connaître",
-  body: "mon profil vous intéresse et voulez en savoir plus"
+  body: "Mon profil vous intéresse et voulez en savoir plus : À la suite d’une coxarthrose d’une hanche et pour éviter de me faire opérer trop prématurément, j’ai dû quitter mon métier. Je suis limité à ne pas piétiner, ni porter de charges lourdes. Je bénéficie d’une RQTH pour favoriser cette reconversion.Je suis en formation « Développeur Web » actuellement et j’aimerais poursuivre sur un Bachelor Chef de Projet Digital.Je recherche une entreprise pour m’accompagner dans cette reconversion et assurer ma monter en compétences."
 }
 
 export const projects = [
   {
-    title: "",
-    body1:"",
-    body2:"",
+    title: "Booki - Agence de voyage",
+    body1:"Integration web avec HTML - CSS",
+    body2:"Intégrer du contenu conformément à une maquette Figma avec HTML et CSS. Implémenter une interface responsive avec HTML et CSS",
     image:"",
     links :[
-      {text:"Source Code ",
-    url:""}
-    ]
-  }
+      {
+        text:"Source Code ",
+        url:"https://github.com/NipperSeb/booki"
+      },
+      {
+        text:"live Site",
+        url:"https://nipperseb.github.io/booki/"
+      },
+    ],
+  },
+  {
+    title: "Nina Carducci - Photographe ",
+    body1:"Optimisation et debug d'un site",
+    body2:"Débugger un site web grâce aux Chrome DevTools. Rédiger un cahier de recette pour tester un site",
+    image:"",
+    links :[
+      {
+        text:"Source Code ",
+        url:"https://github.com/NipperSeb/nina-carducci"
+      },
+      {
+        text:"live Site",
+        url:"https://nipperseb.github.io/nina-carducci/"
+      },
+    ],
+  },
+  {
+    title: "Portfolio Sophie Bluel - Architecte",
+    body1:"Développement web avec javascript",
+    body2:"Récupérer les données utilisateurs dans le JavaScript via des formulaires. Manipuler les éléments du DOM avec JavaScrip",
+    image:"",
+    links :[
+      {
+        text:"Source Code ",
+        url:"https://github.com/NipperSeb/Portfolio-architecte-sophie-bluel"
+      },
+      {
+        text:"live Site",
+        url:""
+      },
+    ],
+  },
+  {
+    title: "Kasa - Agence de location immobilière",
+    body1:"Développement avec React",
+    body2:"Développer des éléments de l'interface d'un site web grâce à des composants React. Configurer la navigation entre les pages de l'application avec React Router.",
+    image:"",
+    links :[
+      {
+        text:"Source Code ",
+        url:"https://github.com/NipperSeb/kasa-web-app"
+      },
+      {
+        text:"live Site",
+        url:"https://nipperseb.github.io/about"
+      },
+    ],
+  },
+  {
+    title: "Mon vieux grimoire - Chaîne de librairie",
+    body1:"Développement back-end avec NodeJS",
+    body2:"Implémenter un modèle logique de données conformément à la réglementation. Mettre en œuvre des opérations CRUD de manière sécurisée.",
+    image:"",
+    links :[
+      {
+        text:"Source Code ",
+        url:"https://github.com/NipperSeb/mon_vieux_grimoire"
+      },
+      {
+        text:"live Site",
+        url:""
+      },
+    ],
+  },
+  {
+    title: "Netflix - login",
+    body1:"Développement PHP et MySQL",
+    body2:"Manipuler les bases de données. Utiliser les sessions et cookies. Sécuriser les données ",
+    image:"",
+    links :[
+      {
+        text:"Source Code ",
+        url:"https://github.com/NipperSeb/netflix"
+      },
+      {
+        text:"live Site",
+        url:""
+      },
+    ],
+  },
+  {
+    title: "Trello",
+    body1:"Copie du célèbre site Trello revisité avec l'utilisation de TypeSrcipt",
+    body2:"Manipuler le DOM. Utiliser le drag and drop, gérer les évènement en TypeScript....",
+    image:"",
+    links :[
+      {
+        text:"Source Code ",
+        url:"https://github.com/NipperSeb/Trello"
+      },
+      {
+        text:"live Site",
+        url:"https://nipperseb.github.io/Trello/"
+      },
+    ],
+  },
 ]

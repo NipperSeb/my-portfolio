@@ -1,5 +1,7 @@
 import { Footer } from "./components/footer"
 import { Header } from "./components/header"
+import {aboutMeData, pages} from "./data/data"
+import "../styles/globals.css"
 
 export default function RootLayout({
   children,
@@ -10,7 +12,7 @@ export default function RootLayout({
     <html>
       <head />
       <body>
-        <Header />
+        <Header name={aboutMeData.name} pages={pages}/>
         {children}
         <Footer />
         </body>
