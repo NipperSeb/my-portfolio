@@ -8,9 +8,9 @@ import email from "../../public/img/email.png"
 
 export const Footer = () => {
   return (
-    <footer className="w-full bg-white shadow-footer mt-12 py-4 fixed bottom-0">
-            <div className="flex items-center justify-center gap-4">
-      <Link href="https://github.com/">
+    <footer className="w-full bg-white shadow-footer mt-12 py-4  bottom-0">
+      <div className="flex items-center justify-center gap-4">
+        <Link href="https://github.com/">
           <Image
             src={twitter}
             alt="lien twitter"
@@ -19,7 +19,7 @@ export const Footer = () => {
             className="w-10 h-10"
           />
         </Link>
-      <Link href="https://github.com/">
+        <Link href="https://github.com/">
           <Image
             src={email}
             alt="lien email"
@@ -28,7 +28,7 @@ export const Footer = () => {
             className="w-10 h-10"
           />
         </Link>
-      <Link href="https://github.com/">
+        <Link href="https://github.com/">
           <Image
             src={linkedin}
             alt="lien linkedin"

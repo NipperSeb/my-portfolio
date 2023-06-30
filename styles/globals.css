@@ -15,4 +15,19 @@
   h1 {
     @apply text-3xl;
   }
+  h2 {
+    @apply text-2xl uppercase text-black font-semibold mb-10;
+  }
+}
+
+.profilImage {
+  @apply rounded-full;
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 4%;
+}
+
+section {
+  @apply mb-10;
 }
