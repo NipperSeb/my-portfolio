@@ -9,6 +9,9 @@
   h4 {
     font-family: Oswald, Proxima Nova, system-ui, sans-serif;
   }
+  body {
+    background-color: rgb(242, 242, 242);
+  }
   html {
     font-family: Merriweather, Proxima Nova, sans-serif;
   }
@@ -16,16 +19,15 @@
     @apply text-3xl;
   }
   h2 {
-    @apply text-2xl uppercase text-black font-semibold mb-10;
+    @apply text-2xl  text-black font-semibold mb-10;
   }
 }
 
 .profilImage {
-  @apply rounded-full;
-  width: auto;
-  height: 100%;
+  width: min(20%, 140px);
   object-fit: cover;
-  object-position: 50% 4%;
+  float: left;
+  margin-right: 1rem;
 }
 
 section {
