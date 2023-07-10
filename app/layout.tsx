@@ -1,6 +1,8 @@
+
+import React from 'react'
 import { Footer } from "./components/footer"
 import { Header } from "./components/header"
-import {aboutMeData, pages} from "./data/data"
+import { aboutMeData, pages } from "./data/data"
 import "../styles/globals.css"
 
 export default function RootLayout({
@@ -12,10 +14,10 @@ export default function RootLayout({
     <html>
       <head />
       <body>
-        <Header name={aboutMeData.name} pages={pages}/>
+        <Header name={aboutMeData.name} pages={pages} />
         {children}
         <Footer />
-        </body>
+      </body>
     </html>
   )
 }

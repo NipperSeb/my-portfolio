@@ -25,8 +25,8 @@ export const aboutMeData = {
 }
 
 export const contactMeText = {
-  title: "Envie de mieux me connaître",
-  body: "Mon profil vous intéresse et voulez en savoir plus : À la suite d’une coxarthrose d’une hanche et pour éviter de me faire opérer trop prématurément, j’ai dû quitter mon métier. Je suis limité à ne pas piétiner, ni porter de charges lourdes. Je bénéficie d’une RQTH pour favoriser cette reconversion.Je suis en formation « Développeur Web » actuellement et j’aimerais poursuivre sur un Bachelor Chef de Projet Digital.Je recherche une entreprise pour m’accompagner dans cette reconversion et assurer ma monter en compétences."
+  title: "Mon profil vous intéresse et voulez en savoir plus",
+  body: "À la suite d’une coxarthrose d’une hanche et pour éviter de me faire opérer trop prématurément, j’ai dû quitter mon métier. Je suis limité à ne pas piétiner, ni porter de charges lourdes. Je bénéficie d’une RQTH pour favoriser cette reconversion.Je suis en formation « Développeur Web » actuellement et j’aimerais poursuivre sur un Bachelor Chef de Projet Digital.Je recherche une entreprise pour m’accompagner dans cette reconversion et assurer ma monter en compétences."
 }
 
 export const projects = [

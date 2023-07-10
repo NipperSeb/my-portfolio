@@ -39,6 +39,7 @@ module.exports = {
     extend: {
       width: {
         "1/3-g": "30%",
+        "1/2-g": "45%",
       },
       minHeight: {
         50: "55px",

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Pincepoche Sébastien",
+    "company": "moi",
+    "email": "sebastien.pincepoche@wanadoo.fr",
+    "message": "je suis sebastien pincepoche"
+  },
+  {
+    "name": "robert",
+    "company": "beubeu",
+    "email": "beubeu@gmail.com",
+    "message": "essai de l'api. ça marche ou pas"
+  }
+]
