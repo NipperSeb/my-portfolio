@@ -10,7 +10,7 @@ export const Footer = () => {
   return (
     <footer className="w-full bg-white shadow-footer mt-12 py-4  bottom-0">
       <div className="flex items-center justify-center gap-4">
-        <Link href="https://github.com/">
+        <Link href="https://twitter.com/home">
           <Image
             src={twitter}
             alt="lien twitter"
@@ -28,7 +28,7 @@ export const Footer = () => {
             className="w-10 h-10"
           />
         </Link>
-        <Link href="https://github.com/">
+        <Link href="https://www.linkedin.com/in/sebastien-pincepoche-746975137/">
           <Image
             src={linkedin}
             alt="lien linkedin"
@@ -38,8 +38,8 @@ export const Footer = () => {
           />
         </Link>
       </div>
-      <div className="flex justify-center items-center text-base leading-5 text-[#abb2bf] w-full my-4">
-        <p>© Copyright {new Date().getFullYear()}.</p>
+      <div className="flex justify-center items-center text-base leading-5  w-full my-4">
+        <p >© Copyright {new Date().getFullYear()}.</p>
       </div>
     </footer>
   )

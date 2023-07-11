@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+
 
 import Image from "next/image";
 
 const AboutMePage = () => {
   return (
+
     <main className="flex flex-col items-center">
       <section className="flex sm:flex-row w-10/12 sm:mt-10 mb-6 items-center flex-col">
         <div className=' w-full mt-6 sm:mt-0 '>
@@ -19,9 +21,9 @@ const AboutMePage = () => {
         <div className=' sm:ml-10'>
           <Image className='h-250 object-cover w-500' width={500} height={250} aria-label={"image de Sébastien Pincepoche"} alt={"image de Sébastien Pincepoche"} src={"/img/ordinateur-portable-ecran-seo.jpg"} priority={false} />
         </div>
-
       </section>
     </main>
+
   )
 }
 
