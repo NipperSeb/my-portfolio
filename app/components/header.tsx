@@ -8,7 +8,7 @@ import { FaBars } from 'react-icons/fa';
 import { GrClose } from 'react-icons/gr';
 
 type HeaderProps = {
-  name: string,
+
   pages: {
     id: number;
     label: string;
@@ -16,7 +16,7 @@ type HeaderProps = {
   }[]
 }
 
-export const Header = ({ name, pages }: HeaderProps) => {
+export const Header = ({ pages }: HeaderProps) => {
 
   const displayMenu = () => {
     return pages.map((page) =>
@@ -61,7 +61,7 @@ export const Header = ({ name, pages }: HeaderProps) => {
               </div>
             </>)}
         </nav>
-        <h1 className="text-white uppercase">{name}</h1>
+        <h1 className="text-white uppercase">Sébastien Pincepoche</h1>
       </div>
 
       <Image priority height={400} width={2000} className='w-full h-48 object-cover object-bottom absolute ' src='/img/ordinateur-portable-dans-espace-coworking.webp' alt='ordinateur-portable-dans-espace-coworking' aria-label="ordinateur-portable-dans-espace-coworking" />

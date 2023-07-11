@@ -14,7 +14,7 @@ export default function RootLayout({
     <html>
       <head />
       <body>
-        <Header name={aboutMeData.name} pages={pages} />
+        <Header pages={pages} />
         {children}
         <Footer />
       </body>

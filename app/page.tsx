@@ -1,5 +1,5 @@
 import React from 'react'
-import { aboutMeData } from './data/data'
+
 import Image from "next/image";
 
 const AboutMePage = () => {

@@ -39,7 +39,7 @@ export const Form = () => {
       setMessageSent(true)
     }
     catch (error: any) {
-      console.log("problem" + error.message)
+      console.log("problem with the fetch operation" + error.message)
     }
     console.log(data)
   }
@@ -75,9 +75,9 @@ export const Form = () => {
           <label htmlFor="message" className='label-form'>Message</label>
           <textarea name="message" id="message" className='input-form' required minLength={10} maxLength={1000} />
         </div>
-        <button type='submit' className="bg-blue rounded-lg text-white hover:text-blue hover:bg-white min-w100 px-5 h-8 border border-slate-300 hover:border-indigo-300hover:border-1">Envoyer message</button>
+        <button type='submit' className="bg-blue rounded-lg text-white hover:text-blue hover:bg-white min-w100 px-5 h-8 border border-slate-300 hover:border-indigo-300hover:border-1">Envoyer</button>
       </form>
-      {isMessageSent && <p>message envoyé</p>}
+      {isMessageSent && <p>Message envoyé</p>}
     </>
   )
 }

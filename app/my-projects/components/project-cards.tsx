@@ -1,3 +1,4 @@
+
 import Image from 'next/image'
 import React from 'react'
 import { FaGithub } from 'react-icons/fa';
@@ -19,7 +20,13 @@ type ProjectCardsProps = {
 };
 
 export const ProjectCards = ({ datas }: ProjectCardsProps) => {
+
+
+
+
   const { title, body1, body2, image, links } = datas;
+
+
   return (
     <div className='rounded-lg  w-full  md:w-1/2-g lg:w-1/3-g   shadow-lg bg-grey-light'>
       <Image
