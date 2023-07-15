@@ -64,7 +64,7 @@ export const Header = ({ pages }: HeaderProps) => {
         <h1 className="text-white uppercase">Sébastien Pincepoche</h1>
       </div>
 
-      <Image priority height={400} width={2000} className='w-full h-48 object-cover object-bottom absolute ' src='/img/ordinateur-portable-dans-espace-coworking.webp' alt='ordinateur-portable-dans-espace-coworking' aria-label="ordinateur-portable-dans-espace-coworking" />
+      <Image priority height={400} width={2000} className='w-full h-48 object-cover object-bottom absolute ' src='/img/allume-ordinateur-portable-gris.webp' alt='ordinateur-portable-dans-espace-coworking' aria-label="ordinateur-portable-dans-espace-coworking" />
     </header>
   )
 }
