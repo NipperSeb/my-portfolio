@@ -33,7 +33,7 @@ export const Header = ({ pages }: HeaderProps) => {
   const toggleSidebar = () => setOpen(!open);
 
   return (
-    <header className="flex flex-col relative bg-linear-557AFF w-full h-48">
+    <header className="flex flex-col relative bg-linear-557AFF w-full h-32">
       <div className="flex flex-col justify-around h-full px-6 bg-header z-10">
         <nav className="text-right flex flex-row gap-6 self-end">
           {isDesktop ? (displayMenu()) : (
@@ -64,7 +64,7 @@ export const Header = ({ pages }: HeaderProps) => {
         <h1 className="text-white uppercase">Sébastien Pincepoche</h1>
       </div>
 
-      <Image priority height={400} width={2000} className='w-full h-48 object-cover object-bottom absolute ' src='/img/allume-ordinateur-portable-gris.webp' alt='ordinateur-portable-dans-espace-coworking' aria-label="ordinateur-portable-dans-espace-coworking" />
+      <Image priority height={400} width={2000} className='w-full h-32 object-cover object-bottom absolute ' src='/img/allume-ordinateur-portable-gris.webp' alt='ordinateur-portable-dans-espace-coworking' aria-label="ordinateur-portable-dans-espace-coworking" />
     </header>
   )
 }

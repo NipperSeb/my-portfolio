@@ -17,9 +17,9 @@ const AboutMePage = () => {
         <div><h2>Mon parcours</h2><p>Je suis en reconversion suite à une coxarthrose et je bénéficie d’une reconnaissance RQTH qui m’ouvre droit au contrat d’apprentissage. Titulaire d'un Titre MUM &#40;Manager d'Univers Marchand&#41; par VAE et d'un DUT GEA en gestion et management, je me suis ensuite formé dans le digital et le numérique. Actuellement, je termine une formation de développeur web et c'est en réalisant un des projets que j'ai découvert l'importance du SEO.</p></div>
       </section>
       <section className='flex flex-col-reverse sm:flex-row w-10/12 mt-10 items-center'>
-        <div className=''><h2>Le SEO</h2><p>Ce qui me plaît avant tout dans le SEO, c'est la possibilité de mettre en place des stratégies efficaces pour améliorer la position d'un site web dans les résultats de recherche, attirer davantage de trafic qualifié et augmenter les chances de conversion. Je souhaite apprendre à maîtriser les techniques telles que l'optimisation des balises méta, l'utilisation pertinente des mots-clés, la création de contenu de qualité et l'amélioration de l'expérience utilisateur.</p></div>
+        <div className='w-9/12'><h2 className='pt-6'>Le SEO</h2><p>Ce qui me plaît avant tout dans le SEO, c'est la possibilité de mettre en place des stratégies efficaces pour améliorer la position d'un site web dans les résultats de recherche, attirer davantage de trafic qualifié et augmenter les chances de conversion. Je souhaite apprendre à maîtriser les techniques telles que l'optimisation des balises méta, l'utilisation pertinente des mots-clés, la création de contenu de qualité et l'amélioration de l'expérience utilisateur.</p></div>
         <div className=' sm:ml-10'>
-          <Image className='h-250 object-cover w-500' width={500} height={250} aria-label={"image de Sébastien Pincepoche"} alt={"image de Sébastien Pincepoche"} src={"/img/ordinateur-portable-ecran-seo.jpg"} priority={false} />
+          <Image className=' h-250 object-cover w-500' width={500} height={250} aria-label={"image d'un ordinateur"} alt={"image d'un ordinateur"} src={"/img/ordinateur-portable-ecran-seo.jpg"} priority={false} />
         </div>
       </section>
     </main>
